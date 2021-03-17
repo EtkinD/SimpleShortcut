@@ -65,17 +65,17 @@ class TwitchShortcutListener:
         self.join()
 
     def onPress(self, key):
-        if str(key) == "'<255>'":
+        if str(key) == "<255>":
             self.fn = True
         # If fn is pressed it's okay but still the last pressed button isn't released,
         # it doesn't press same button thanks to self.done.
-        if self.fn and self.done and str(key) != "'<255>'":
+        if self.fn and self.done and str(key) != "<255>":
             self.done = False
             self.lastKey = str(key)
             self.parse(key)
 
     def onRelease(self, key):
-        if str(key) == "'<255>'":
+        if str(key) == "<255>":
             self.fn = False
         if str(key) == self.lastKey:
             self.done = True
