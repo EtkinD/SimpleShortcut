@@ -1,0 +1,46 @@
+# Button code: alt_l -> left alt
+# Button code: alt_r -> right alt (altgr)
+#
+# Button code: ctrl_l -> left ctrl
+# Button code: ctrl_r -> right ctrl
+#
+# Button code: shift_l -> left shift
+# Button code: shift_r -> right shift
+#
+# Button code: left -> left arrow
+# Button code: right -> right arrow
+# Button code: up -> up arrow
+# Button code: down -> down arrow
+#
+# Button code: windows -> windows (super)
+#
+# Button code: tab -> tab
+# Button code: caps_lock -> caps lock
+# Button code: esc -> escape
+# Button code: delete -> delete
+# Button code: backspace -> backspace
+# Button code: space -> space
+# Button code: enter -> enter
+#
+# Button code: f1, f2, f3, ...f20 -> f buttons from 1 to 20
+#
+# This file is case-sensitive, please notice when creating a shortcut.
+# Using lowercase letters may be the best choice.
+#
+# More than one button combinations can be attached with ' -> ' (right and left spaces important!).
+#
+# Example: a=shift_l+tab -> alt_l+windows+right
+# Wrong example: a=shift_l+tab->alt_l+windows+right
+#
+# If a line starts with '#', it is a comment lines.
+#
+# Default shortcuts:
+
+d=ctrl_l+windows+d
+a=ctrl_l+windows+left
+s=ctrl_l+windows+right
+
+# Example of ' -> '
+f=alt_l+tab -> ctrl_l+windows+d -> alt_l+windows+left
+
+x=alt_l+tab

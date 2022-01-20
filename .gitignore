@@ -1,0 +1,6 @@
+
+# Pycharm settings file
+.idea/
+
+# Virtual environment directory
+venv/
